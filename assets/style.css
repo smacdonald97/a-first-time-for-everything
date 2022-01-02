@@ -41,8 +41,7 @@ body {
     margin-left: 25px;
 }
 
-/*Put <a> child elements with their parent element since we only have these <a> elements to style*/
-.header div ul li a {
+a {
     color: #ffffff;
     text-decoration: none;
 }
@@ -57,3 +56,76 @@ body {
     background-position: center;
 }
 
+/*Moved .content under hero to follow html structure*/
+.content {
+    width: 75%;
+    margin-left: 25px;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+}
+
+/*Consolidated .content images*/
+.content img {
+    max-height: 200px;
+}
+
+/*Consolidated content h2s*/
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Moved p element to follow html structure*/
+p {
+    font-size: 16px;
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    color: #ffffff;
+}
+
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Consolidated benefits h3s*/
+.benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Consolidated benefits SVG images*/
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
