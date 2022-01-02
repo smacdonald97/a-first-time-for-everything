@@ -65,6 +65,16 @@ a {
     color: #ffffff;
 }
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 /*Consolidated .content images*/
 .content img {
     max-height: 200px;
@@ -82,6 +92,20 @@ p {
 }
 
 .search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+}
+
+.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
